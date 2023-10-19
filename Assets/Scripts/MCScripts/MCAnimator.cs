@@ -17,8 +17,13 @@ public class MCAnimator : MonoBehaviour
 
     void Update()
     {
-        float horizontal = mcController.horizontalMovement;
-        float vertical = mcController.verticalMovement;
+        float horizontal = 0;
+        float vertical = 0;
+        if (mcController.canMove)
+        {
+            horizontal = mcController.horizontalMovement;
+            vertical = mcController.verticalMovement;
+        }
 
         mcController.motionVector = new Vector2(horizontal, vertical);
         characterAnimator.SetFloat("Horizontal", horizontal);

@@ -16,6 +16,8 @@ public class MCController : MonoBehaviour
     public Vector2 motionVector;
     public Vector2 lastMotionVector;
 
+    public bool canMove = true;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,7 +25,10 @@ public class MCController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Move();
+        if(canMove)
+        {
+            Move();
+        }
     }
 
     private void Update()

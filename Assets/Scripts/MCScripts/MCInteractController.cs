@@ -37,7 +37,8 @@ public class MCInteractController : MonoBehaviour
             Interactable hit = collider.GetComponent<Interactable>();
             if(hit != null)
             {
-                hit.Interact(character);
+                Debug.Log(collider.gameObject.name);
+                hit.Interact(character, collider.gameObject);
                 break;
             }
         }

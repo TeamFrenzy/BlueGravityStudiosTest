@@ -6,6 +6,7 @@ public class MCInventoryController : MonoBehaviour
 {
     [SerializeField] GameObject inventoryScreen;
     [SerializeField] GameObject tradingScreen;
+    [SerializeField] AudioClip openInventoryClip;
 
     private void Update()
     {
@@ -26,6 +27,7 @@ public class MCInventoryController : MonoBehaviour
     {
         inventoryScreen.SetActive(true);
         tradingScreen.SetActive(false);
+        GetComponent<AudioSource>().PlayOneShot(openInventoryClip);
     }
 
     public void Close()

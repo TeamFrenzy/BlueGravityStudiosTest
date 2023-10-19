@@ -5,8 +5,9 @@ using UnityEngine;
 public class DialogueInteractable : Interactable
 {
     [SerializeField] private DialogueContainer dialogue;   
-    public override void Interact(Character character)
+    public override void Interact(Character character, GameObject target)
     {
-        GameManager.Instance.dialogueSystem.Initialize(dialogue);
+        character.mcController.canMove = false;
+        GameManager.Instance.dialogueSystem.Initialize(dialogue, target);
     }
 }

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c2ac98d0ec819d458689c0772db3c19, type: 3}
+  m_Name: SellerDialogue1
+  m_EditorClassIdentifier: 
+  textLine:
+  - O-oh, wow, I mean-
+  - Fresh out of the shower, aren't you? Hahaha...
+  - ...you aren't like a psycho or anything, aren't you?
+  - ...
+  - Memory loss? I thought that was just a thing in movies.
+  - You remember how to walk and talk but forgot to hide the Loch Ness monster? How
+    does that even work?
+  - That's too selective even for me.
+  - Anyway, why don't you buy some clothes?
+  - I can't see where you'd even keep your wallet, but at this point I'm just going
+    to believe things.
+  - Have a look at my wares- and walk a little closer to the desk, please.
+  textSize: 22000000300000001b00000030000000300000003000000022000000300000003000000030000000
+  windowWidthSize: bc020000bc020000bc020000bc020000bc020000bc020000bc020000bc020000bc020000bc020000
+  windowHeightSize: c8000000c80000002c0100002c0100002c0100002c0100002c0100002c0100002c0100002c010000
+  actorName: Shop Keeper
+  position: {x: 600, y: 700}
+  isTalking: 1
+  talkingClip: {fileID: 8300000, guid: 308de5f00fa0357428095bf60e97660c, type: 3}
+  isShop: 1
