@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject playerCharacter;
     public ItemContainer inventaryContainer;
     public DragAndDropController dragAndDropController;
+    public DialogueSystem dialogueSystem;
 
     private void Awake()
     {
