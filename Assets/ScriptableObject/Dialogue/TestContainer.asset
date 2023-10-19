@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2ac98d0ec819d458689c0772db3c19, type: 3}
   m_Name: TestContainer
   m_EditorClassIdentifier: 
-  line: []
-  actor: {fileID: 0}
+  line:
+  - First line.
+  - Second line.
+  - Third line.
+  actor: {fileID: 11400000, guid: ab189fbefe133344e8bd445348101712, type: 2}

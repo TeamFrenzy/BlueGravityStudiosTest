@@ -13,6 +13,30 @@ MonoBehaviour:
   m_Name: ItemContainer
   m_EditorClassIdentifier: 
   slots:
+  - item: {fileID: 11400000, guid: aa63495aa06b1874a83dd4fafd42f59d, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: aa63495aa06b1874a83dd4fafd42f59d, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: aa63495aa06b1874a83dd4fafd42f59d, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: aa63495aa06b1874a83dd4fafd42f59d, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: aa63495aa06b1874a83dd4fafd42f59d, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: aa63495aa06b1874a83dd4fafd42f59d, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: d1d22c42729e53641a37e64a9450cbb7, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: d1d22c42729e53641a37e64a9450cbb7, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: d1d22c42729e53641a37e64a9450cbb7, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: d1d22c42729e53641a37e64a9450cbb7, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: d1d22c42729e53641a37e64a9450cbb7, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: d1d22c42729e53641a37e64a9450cbb7, type: 2}
+    count: 0
   - item: {fileID: 11400000, guid: d1d22c42729e53641a37e64a9450cbb7, type: 2}
     count: 0
   - item: {fileID: 0}
@@ -27,35 +51,11 @@ MonoBehaviour:
     count: 0
   - item: {fileID: 0}
     count: 0
+  - item: {fileID: 11400000, guid: 6161fcd98bb74a944a70eb4f86400f0f, type: 2}
+    count: 1
   - item: {fileID: 0}
     count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
+  - item: {fileID: 11400000, guid: d1d22c42729e53641a37e64a9450cbb7, type: 2}
     count: 0
   - item: {fileID: 0}
     count: 0

@@ -15,3 +15,6 @@ MonoBehaviour:
   itemName: Clothes
   isStackable: 0
   icon: {fileID: 1631005415, guid: a953fa8fc0e336445aea1b8645ad8e46, type: 3}
+  worldSprite: {fileID: 0}
+  price: 200
+  canBeSold: 1

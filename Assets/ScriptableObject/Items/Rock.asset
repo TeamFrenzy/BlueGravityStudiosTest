@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: Rock
   m_EditorClassIdentifier: 
   itemName: 
+  isStackable: 0
   icon: {fileID: 0}
+  worldSprite: {fileID: 0}
+  price: 300
+  canBeSold: 1

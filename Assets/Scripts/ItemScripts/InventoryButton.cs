@@ -12,9 +12,16 @@ public class InventoryButton : MonoBehaviour, IPointerClickHandler
 
     int myIndex;
 
+    InventoryPanel itemPanel;
+
     public void SetIndex(int index)
     {
         myIndex = index;
+    }
+
+    public void SetItemPanel(InventoryPanel source)
+    {
+        itemPanel = source;
     }
 
     public void Set(ItemSlot slot)
@@ -43,8 +50,12 @@ public class InventoryButton : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        InventoryPanel itemPanel = transform.parent.GetComponent<InventoryPanel>();
+        itemPanel.OnClick(myIndex);
+        /*
         ItemContainer inventory = GameManager.Instance.inventaryContainer;
         GameManager.Instance.dragAndDropController.OnClick(inventory.slots[myIndex]);
         transform.parent.GetComponent<InventoryPanel>().Show();
+        */
     }
 }

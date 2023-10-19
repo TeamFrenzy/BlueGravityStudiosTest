@@ -9,5 +9,7 @@ public class Item : ScriptableObject
     public bool isStackable;
     public Sprite icon;
     public Sprite worldSprite;
+    public int price = 100;
+    public bool canBeSold = true;
 
 }
