@@ -4,11 +4,17 @@ using System.Collections.Generic;
 using System.Dynamic;
 using UnityEditor.Search;
 using UnityEngine;
+using static Cinemachine.CinemachineOrbitalTransposer;
 
 public class InventoryPanel : MonoBehaviour
 {
-    [SerializeField] ItemContainer inventory;
-    [SerializeField] List<InventoryButton> buttons;
+    public ItemContainer inventory;
+    public List<InventoryButton> buttons;
+    public MCTrading mcTrading;
+    public Character character;
+
+    public bool isStore;
+    public bool isTrading;
 
     private void Start()
     {
@@ -19,6 +25,10 @@ public class InventoryPanel : MonoBehaviour
     {
         SetSourcePanel();
         SetIndex();
+        if(isStore)
+        {
+            SetIsInStore();
+        }
         Show();
     }
 
@@ -27,6 +37,15 @@ public class InventoryPanel : MonoBehaviour
         for(int i = 0; i < buttons.Count; i++)
         {
             buttons[i].SetItemPanel(this);
+        }
+    }
+
+    private void SetIsInStore()
+    {
+        for (int i = 0; i < inventory.slots.Count; i++)
+        {
+            inventory.slots[i].item.isInStore = true;
+            Debug.Log("Item " + inventory.slots[i].item.itemName + "isInStore?:" + inventory.slots[i].item.isInStore);
         }
     }
 
@@ -42,13 +61,6 @@ public class InventoryPanel : MonoBehaviour
         {
             return;
         }
-        /*
-        if(inventory.isDirty)
-        {
-            Show();
-            inventory.isDirty = false;
-        }
-        */
     }
 
     private void SetIndex()
@@ -90,6 +102,6 @@ public class InventoryPanel : MonoBehaviour
 
     public virtual void OnClick(int id)
     {
-
+        Debug.Log("OnClockInventoryPanelCalled!");
     }
 }

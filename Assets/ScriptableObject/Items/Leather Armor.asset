@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a0d512c5e6b63478b3e1831e246632, type: 3}
+  m_Name: Leather Armor
+  m_EditorClassIdentifier: 
+  itemName: Leather Armor
+  isStackable: 0
+  icon: {fileID: 1319847281, guid: ce8b542637401494eb7f48e59c11ca13, type: 3}
+  worldSprite: {fileID: 1319847281, guid: ce8b542637401494eb7f48e59c11ca13, type: 3}
+  tooltip: Made of leather. Just think of that poor animal. It had a family, friends,
+    offsprings to look after, offprings that may now be cold and starving in some
+    deadly mountain where chipmunks wield rocket launchers. But, at least you won't
+    be so cold when you wear it.
+  tooltipBoxSizeX: 550
+  tooltipBoxSizeY: 150
+  buyPrice: 5000
+  sellPrice: 5000
+  canBeSold: 1
+  isInStore: 1
+  isEquippable: 1
+  isEquipped: 0
+  equipment: {fileID: 0}
+  equipmentType: 0

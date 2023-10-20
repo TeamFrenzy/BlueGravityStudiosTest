@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c2ac98d0ec819d458689c0772db3c19, type: 3}
+  m_Name: SellerDialogueExit
+  m_EditorClassIdentifier: 
+  textLine:
+  - Come back anytime.
+  - Just don't let my wife see you.
+  - Why am I standing over the desk? I've been playing 'the floor is lava' with my
+    brother for the past two and a half decades.
+  textSize: 4b0000004b0000004b000000
+  windowWidthSize: 84030000e803000014050000
+  windowHeightSize: 96000000fa00000090010000
+  actorName: Shop Keeper
+  position: {x: 1000, y: 300}
+  isTalking: 1
+  talkingClip: {fileID: 8300000, guid: 308de5f00fa0357428095bf60e97660c, type: 3}
+  isShop: 0

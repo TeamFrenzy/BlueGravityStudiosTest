@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d5a0d512c5e6b63478b3e1831e246632, type: 3}
-  m_Name: Rock
+  m_Name: Banana
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Banana
   isStackable: 0
-  icon: {fileID: 0}
-  worldSprite: {fileID: 0}
-  price: 300
+  icon: {fileID: -936478327, guid: ce8b542637401494eb7f48e59c11ca13, type: 3}
+  worldSprite: {fileID: -936478327, guid: ce8b542637401494eb7f48e59c11ca13, type: 3}
+  tooltip: Just a banana. May fetch you some coins.
+  tooltipBoxSizeX: 300
+  tooltipBoxSizeY: 100
+  price: 50
   canBeSold: 1

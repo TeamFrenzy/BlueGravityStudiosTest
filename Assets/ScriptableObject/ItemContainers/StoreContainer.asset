@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: StoreContainer
   m_EditorClassIdentifier: 
   slots:
-  - item: {fileID: 11400000, guid: aa63495aa06b1874a83dd4fafd42f59d, type: 2}
+  - item: {fileID: 11400000, guid: d498796c2be23e340b8924355e1552f8, type: 2}
     count: 0
-  - item: {fileID: 11400000, guid: 6161fcd98bb74a944a70eb4f86400f0f, type: 2}
+  - item: {fileID: 11400000, guid: 2a12fd09812e11c478eb4e448c15b39a, type: 2}
     count: 0
-  - item: {fileID: 11400000, guid: d1d22c42729e53641a37e64a9450cbb7, type: 2}
+  - item: {fileID: 11400000, guid: 44b0e57ccba3b5a46beb644e56690a69, type: 2}
     count: 0

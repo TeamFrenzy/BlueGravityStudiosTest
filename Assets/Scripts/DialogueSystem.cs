@@ -19,6 +19,7 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] TextMeshProUGUI nameText;
 
     DialogueContainer currentDialogue;
+    GameObject currentTarget;
     int currentTextLine;
 
     [Range(0f, 1f)]
@@ -32,7 +33,7 @@ public class DialogueSystem : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.C))
         {
             PushText();
         }
@@ -41,7 +42,7 @@ public class DialogueSystem : MonoBehaviour
 
     public void Initialize(DialogueContainer dialogueContainer, GameObject target)
     {
-        Debug.Log(target.name);
+        currentTarget = target;
         vCam.m_Follow = target.transform;
         dialoguePanel.GetComponent<RectTransform>().sizeDelta = new Vector2(dialogueContainer.windowHeightSize[0], dialogueContainer.windowHeightSize[0]);
         targetText.fontSize = dialogueContainer.textSize[0];
@@ -118,6 +119,13 @@ public class DialogueSystem : MonoBehaviour
         Debug.Log("Dialogue has ended");
         Show(false);
         vCam.m_Follow = character.transform;
-        character.mcController.canMove = true;
+        if(currentDialogue.isShop)
+        {
+            currentTarget.GetComponent<Store>().Interact(character, currentTarget);
+        }
+        else
+        {
+            character.mcController.canMove = true;
+        }
     }
 }

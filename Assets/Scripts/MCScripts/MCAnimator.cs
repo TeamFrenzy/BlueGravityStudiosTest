@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class MCAnimator : MonoBehaviour
 {
-    [SerializeField] internal MCController mcController;
-
+    public MCController mcController;
     private Animator characterAnimator;
 
     public bool isMoving;

@@ -9,7 +9,9 @@ public class ItemStoreScript : InventoryPanel
     [SerializeField] MCTrading trading;
     public override void OnClick(int id)
     {
-
+        Debug.Log("OnClickCalled!");
+        BuyItem(id);
+        /*
         if (GameManager.Instance.dragAndDropController.itemSlot.item == null)
         {
             BuyItem(id);
@@ -18,17 +20,19 @@ public class ItemStoreScript : InventoryPanel
         {
             SellItem();
         }
-
+        */
         Show();
     }
 
-    private void BuyItem(int id)
+    public void BuyItem(int id)
     {
         trading.BuyItem(id);
     }
 
-    private void SellItem()
+    /*
+    public void SellItem(int id)
     {
         trading.SellItem();
     }
+    */
 }

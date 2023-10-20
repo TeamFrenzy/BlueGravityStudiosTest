@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a0d512c5e6b63478b3e1831e246632, type: 3}
+  m_Name: Leather Helmet
+  m_EditorClassIdentifier: 
+  itemName: Leather Helmet
+  isStackable: 0
+  icon: {fileID: -1988132507, guid: ce8b542637401494eb7f48e59c11ca13, type: 3}
+  worldSprite: {fileID: -1988132507, guid: ce8b542637401494eb7f48e59c11ca13, type: 3}
+  tooltip: 'The best leather helmet ever made. The sould of a thousand planets have
+    been consumed and then boiled over ten thousand years in order to produce leather
+    made entirely of the most pure pain and hatred, then sewn together to make this
+    monstruosity. When you try it on, you can hear the whispers of the fallen: all
+    they want is more fire.'
+  tooltipBoxSizeX: 400
+  tooltipBoxSizeY: 160
+  buyPrice: 5000
+  sellPrice: 5000
+  canBeSold: 1
+  isInStore: 1
+  isEquippable: 0
+  isEquipped: 0
+  equipment: {fileID: 0}
+  equipmentType: 0

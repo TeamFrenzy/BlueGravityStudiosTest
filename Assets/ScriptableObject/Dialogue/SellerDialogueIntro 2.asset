@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c2ac98d0ec819d458689c0772db3c19, type: 3}
-  m_Name: BlackChair1Dialogue
+  m_Name: SellerDialogueIntro 2
   m_EditorClassIdentifier: 
   textLine:
-  - First Text
-  - Second Text
-  - Third Text
-  textSize: 18000000300000004e000000
-  windowWidthSize: e8030000f4010000bc020000
-  windowHeightSize: c80000002c01000090010000
-  actorName: 
-  position: {x: 500, y: 300}
+  - Back for more?
+  - Let these super solid prices stay in your memory.
+  textSize: 4b0000004b000000
+  windowWidthSize: 84030000e8030000
+  windowHeightSize: 960000005e010000
+  actorName: Shop Keeper
+  position: {x: 1000, y: 300}
   isTalking: 1
-  talkingClip: {fileID: 8300000, guid: fdf509d6da6f6814b812522136157d22, type: 3}
-  isShop: 0
+  talkingClip: {fileID: 8300000, guid: 308de5f00fa0357428095bf60e97660c, type: 3}
+  isShop: 1

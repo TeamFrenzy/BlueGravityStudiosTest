@@ -10,14 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c2ac98d0ec819d458689c0772db3c19, type: 3}
-  m_Name: TestContainer
+  m_Name: PortraitDialogue
   m_EditorClassIdentifier: 
-  textLine: []
-  textSize: 
-  windowWidthSize: 
-  windowHeightSize: 
+  textLine:
+  - The portrait shows you a starry night full of stars looming over Egypt's majestic
+    pyramids, and an oasis for your soul.
+  - You show it your ugly face.
+  textSize: 4b0000004b000000
+  windowWidthSize: 78050000e8030000
+  windowHeightSize: 9001000096000000
   actorName: 
-  position: {x: 0, y: 0}
+  position: {x: 1000, y: 300}
   isTalking: 1
   talkingClip: {fileID: 8300000, guid: fdf509d6da6f6814b812522136157d22, type: 3}
   isShop: 0

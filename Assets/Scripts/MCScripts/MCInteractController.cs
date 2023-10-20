@@ -30,9 +30,10 @@ public class MCInteractController : MonoBehaviour
     private void Interact()
     {
         Vector2 position = rb.position + mcController.lastMotionVector * offsetDistance;
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
+        //Collider2D[] colliders = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
+        Collider2D[] colliders = Physics2D.OverlapBoxAll(position, new Vector2(2f,2f), 90f);
 
-        foreach(Collider2D collider in colliders)
+        foreach (Collider2D collider in colliders)
         {
             Interactable hit = collider.GetComponent<Interactable>();
             if(hit != null)
